@@ -1,0 +1,114 @@
+/* Font */
+html {
+    font: 20px Arial, sans-serif; /* Employ shorthand notation to set the font */
+}
+
+h1,
+h2 {
+    font-variant: small-caps; /* For h1 and h2 set the font variation to small capitals */
+}
+
+figcaption {
+    font-weight: bold; /* Bolden the font */
+    font-variant: small-caps; /* Adjust the font type to small capitals */
+    font-size: 1.2em; /* Increase the font of the component at the root */
+}
+
+q {
+    font-style: italic; /* Adjust the font type to bold */
+    font-family: cursive; /*A cursive font family ought to be chosen */
+    font-size: 1.2em; /*Increase the font with a connection to the component at the root */
+}
+
+footer p {
+    font-size: 0.8em; /* Limit the font size according to the root element */
+}
+
+/* Width, Maximum Width, and Height */
+body {
+    width: 80%; /* Modify width with respect to parent */
+    max-width: 800px; /*Give the maximum width of an integer */
+}
+
+img {
+    width: 100%; /* Set width relative to its parent */
+    height: auto; /* Preserve the aspect ratio constant*/
+}
+
+figure {
+    width: 100%; /* Set width relative to its parent */
+    height: auto; /* Maintain aspect ratio */
+}
+
+iframe,
+video {
+    width: 100%; /* Set width relative to its parent */
+}
+
+/* Model & Aligning of Box */
+body {
+    padding: 1em; /* Padding ought to be placed on the body sides */
+    margin: 0 auto; /* Center align the body */
+}
+
+header,
+footer {
+    text-align: center; /* Center align text in header and footer */
+}
+
+.mainsection {
+    text-align: center; /* Center align text */
+    padding: 1em; /* Insert padding to all sides of the element */
+}
+
+#bio blockquote {
+    text-align: left; /* Align text to the left */
+}
+
+img {
+    padding: 0.5em; /* Deploy padding to all sides of the image */
+}
+
+figure {
+    padding: 0.5em; /* Add padding to all sides of the figure */
+    margin: 1em auto; /* Include margins to top and bottom, and align center */
+}/* Borders & Box shadow */
+header,
+footer {
+    border: 1px solid #c98613; /* Provide the header and footer with a border */
+}
+
+#absolute-path-image {
+    border: 1px solid #1f7474; /* Add the border with an absolute path image to the image */
+}
+
+#relative-path-image {
+    border: 1px solid #a103fc; /* Add border to figure with relative path image */
+}
+
+blockquote#quote q {
+    border: 1px solid #33ccff; /* Add a border utilizing the nested Q component to the blockquote */
+    box-shadow: 3px 3px 3px #9bcb0d; /* Add box shadow to blockquote with q element nested */
+}
+
+iframe,
+video {
+    border: 1px solid #e6c910; /* Add border to iframe/video element */
+}
+
+/* Background */
+header, footer {
+    background: linear-gradient(to right, #ff5733, #6b03fc); /* Adjust the header and footer's color background */
+}
+
+.sections {
+    background-color: hsla(0, 100%, 50%, 0.3); /* Choose a backdrop color for every component */
+}
+
+#absolute-path-image {
+    background-color: hsla(120, 66%, 30%, 0.3); /* Modify the figure the background color with the absolute path image */
+}
+
+#relative-path-image {
+    background-color: hsla(240, 87%, 37%, 0.3); /* Set background color for figure with relative path image */
+}
